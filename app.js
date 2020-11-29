@@ -1,8 +1,3 @@
-import express from 'express';
-import { createReadStream }  from 'fs';
-import crypto from 'crypto';
-import http from 'http';
-
 const CORS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS',
